@@ -1,0 +1,24 @@
+{
+  "name": "directorio-empresas",
+  "version": "1.0.0",
+  "description": "Sistema de gestión de directorio empresarial - CONECTA FP",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "init-db": "node database/init-db.js",
+    "import-csv": "node import-csv.js",
+    "load-data": "node load-data.js"
+  },
+  "keywords": ["empresas", "directorio", "crud", "conecta-fp"],
+  "author": "CONECTA FP",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "csv-parser": "^3.0.0",
+    "express": "^4.18.2",
+    "sqlite3": "^5.1.6"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
